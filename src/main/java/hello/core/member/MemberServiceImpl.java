@@ -19,4 +19,8 @@ public class MemberServiceImpl extends MemberService {
             return memberRepository.findById(memberId);
         }
 
+        // 테스트 용도
+        public MemberRepository getMemberRepository() {
+            return memberRepository;
+        }
 }
