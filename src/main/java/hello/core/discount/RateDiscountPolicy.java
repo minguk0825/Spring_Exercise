@@ -1,5 +1,8 @@
 package hello.core.discount;
 
+import org.springframework.stereotype.Component;
+
+@Component // 스프링 빈으로 자동 등록됨
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10; // 10% 할인
     @Override
