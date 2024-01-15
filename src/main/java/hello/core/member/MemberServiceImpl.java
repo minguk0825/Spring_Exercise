@@ -1,6 +1,7 @@
 package hello.core.member;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component // 스프링 빈으로 자동 등록됨
